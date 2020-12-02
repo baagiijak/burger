@@ -1,0 +1,45 @@
+.MenuItem {
+  display: block;
+  width: 100%;
+  margin: 0;
+  align-items: center;
+}
+
+.MenuItem a {
+  display: block;
+  text-decoration: none;
+  color: #8f5c2c;
+  padding: 16px 10px;
+  height: 100%;
+}
+
+.MenuItem a:hover,
+.MenuItem a:active,
+.MenuItem a.active {
+  color: color;
+}
+
+@media (min-width: 500px) {
+  .MenuItem {
+    display: flex;
+    height: 100%;
+    width: auto;
+    margin: 0;
+    align-items: center;
+  }
+
+  .MenuItem a {
+    text-decoration: none;
+    color: white;
+    padding: 16px 10px;
+    height: 100%;
+    border-bottom: 4px solid transparent;
+  }
+
+  .MenuItem a:hover,
+  .MenuItem a:active,
+  .MenuItem a.active {
+    background-color: #8f5c2c;
+    border-bottom: 4px solid #40a4c8;
+  }
+}
